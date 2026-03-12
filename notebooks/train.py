@@ -44,3 +44,4 @@ joblib.dump(model, 'models/spam_model.pkl')
 joblib.dump(vectorizer, 'models/vectorizer.pkl')
 
 print("Success: Model and Vectorizer saved in /models folder!")
+

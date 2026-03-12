@@ -13,3 +13,13 @@ A production-grade machine learning system that identifies spam messages using F
    ```cmd
    docker build -t spam-detector .
    docker run -p 8000:8000 spam-detector
+
+   ---
+
+#### 2. Push to GitHub
+Open your terminal and run these commands to send your code to the cloud:
+
+1. **Initialize Git & Add Files:**
+   ```cmd
+   git init
+   git add .

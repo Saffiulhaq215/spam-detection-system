@@ -43,3 +43,4 @@ def predict_spam(request: EmailRequest):
 @app.get("/")
 def home():
     return {"status": "The Spam Detector API is running!"}
+
